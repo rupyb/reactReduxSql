@@ -1,0 +1,129 @@
+html {
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+p {
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+h1 {
+    font-family: 'Grand Hotel', cursive;
+    text-align: center;
+    font-size: 13rem;
+    font-weight: 100;
+    margin: 2rem 0;
+    letter-spacing: -1px;
+    color: black;
+}
+
+.photo-grid {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: rows;
+}
+
+.figure {
+    flex-basis: calc(33.333% - 4rem);
+    border: 1px solid #d3d3d3;
+    padding: 2rem;
+    flex-grow: 1;
+    margin: 0 2rem rem rem;
+}
+
+.photo {
+    width: calc(100% + 4rem);
+    margin: -2rem 0rem 0rem -2rem;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    flex-basis: 48%;
+    color: red;
+    font-size: 15px;
+    border: 2px solid #f2f2f2;
+    line-height: 2;
+    padding: 5px;
+}
+
+.addIcon {
+    margin: 20px auto;
+    display: table;
+    background-color: white;
+    border:none;
+}
+
+.form {
+    background-color: white;
+    max-width: 360px;
+    margin: 0 auto;
+    padding: 45px;
+    text-align: center;
+}
+
+.form input {
+    font-family: sans-serif;
+    background: #f2f2f2;
+    width: 100%;
+    border: none;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    margin: 0 0 15px;
+}
+
+.form button {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    background: #086784;
+    width: 100%;
+    border: none;
+    padding: 15px;
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+}
+
+.form button:hover {
+    background: #7b8589;
+}
+
+button:hover {
+    border-color: blue;
+}
+
+.single-folder {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.comment-form  {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.comment-div {
+    flex-grow: .8;
+    margin-top: 11px;
+    margin-left: -41px;
+}
+
+.commentIcon {
+    margin-left: 20px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.commentP {
+    display: inline-block;
+    margin-right: 10px;
+}
